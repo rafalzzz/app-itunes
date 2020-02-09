@@ -10,7 +10,8 @@ export const ListItemsContainer = styled.div`
     transform: translate(-50%);
     margin-left: 50%;
     flex-wrap: wrap;
-    height: calc(100vh - 446px);
+    min-height: calc(100vh - 446px);
+    max-height: auto;
 
   .ItemContainer {
     display: flex;
@@ -69,9 +70,10 @@ export const ListItemsContainer = styled.div`
     src: url(https://fonts.googleapis.com/css?family=Lato:100i,300,400,700i&display=swap);
 }
 
-  @media only screen and (max-width: 956px) {
+  @media only screen and (max-width: 980px) {
     width: 100vw;
-    height: auto;
+    min-height: calc(100vh - 387px);
+    max-height: auto;
     }
 
     .ItemContainer {
