@@ -1,4 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About this app
+
+This App was created in Create-React-App.<br />
+
+This app is used for searching songs by song title, author or lyrics.<br />
+Layout was designed for screens and mobile phones.<br />
+I used iTunes API to fetch data about songs and authors.<br />
+
+In this App I used:<br />
+•	styled components to design layout,<br />
+•	redux to manage state,<br />
+•	redux-saga to handle asynchronous actions (i.e. like data fetching),<br />
+•	axios to fetch data.<br />
+
+Screenshots:<br />
+
+![GitHub Logo](/screenshots/main-layout.png)
+
+![GitHub Logo](/screenshots/phone-layout1.png)
+
+![GitHub Logo](/screenshots/phone-layout2.png)
 
 ## Available Scripts
 
